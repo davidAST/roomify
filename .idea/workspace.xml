@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dc116425-657a-43ed-bc04-23e152f506aa" name="Changes" comment="Implement homepage UI">
+      <change afterPath="$PROJECT_DIR$/app/routes/visualizer.$id.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Upload.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/constants.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/root.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/root.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/home.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.000000006194601" />
+      <entry key="S5" value="1.0005805996592798" />
+      <entry key="S10" value="1.04670204914125" />
+      <entry key="S30" value="3.4701056552300065" />
+      <entry key="S60" value="10.41487162423283" />
+      <entry key="M2" value="22.109938939428112" />
+      <entry key="M5" value="37.45940432520435" />
+      <entry key="M10" value="45.24304807055564" />
+      <entry key="M15" value="48.25143924068479" />
+      <entry key="M30" value="51.496891910634986" />
+      <entry key="H1" value="53.214879822408065" />
+      <entry key="H2" value="54.098871848976344" />
+      <entry key="H4" value="54.54727141424787" />
+      <entry key="D1" value="54.92424267973781" />
+      <entry key="W1" value="54.98917009084397" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="9.586550984911172E-125" />
+      <entry key="MS500" value="1.571565467190974E-25" />
+      <entry key="S2" value="6.296266751360896E-7" />
+      <entry key="S5" value="0.0033085160647087215" />
+      <entry key="S10" value="0.0575198237480667" />
+      <entry key="S30" value="0.390978768108825" />
+      <entry key="S60" value="0.6917474607191806" />
+      <entry key="M2" value="1.053642728308234" />
+      <entry key="M5" value="1.497464053528049" />
+      <entry key="M10" value="1.7205032318261047" />
+      <entry key="M15" value="1.8066650318422741" />
+      <entry key="M30" value="1.899627250972312" />
+      <entry key="H1" value="1.9488470439655798" />
+      <entry key="H2" value="1.9741766475625306" />
+      <entry key="H4" value="1.9870259388943636" />
+      <entry key="D1" value="1.9978289347647844" />
+      <entry key="W1" value="1.9996896334811614" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.6198538499694932" />
+      <entry key="MS500" value="0.90877811644852" />
+      <entry key="S2" value="0.9763705595602187" />
+      <entry key="S5" value="0.9939701397595379" />
+      <entry key="S10" value="1.094680577879977" />
+      <entry key="S30" value="3.8217836338558655" />
+      <entry key="S60" value="11.044264493629438" />
+      <entry key="M2" value="23.099353528387645" />
+      <entry key="M5" value="38.91448206214503" />
+      <entry key="M10" value="46.93818789690714" />
+      <entry key="M15" value="50.04012556984219" />
+      <entry key="M30" value="53.38695400451823" />
+      <entry key="H1" value="55.15879211842859" />
+      <entry key="H2" value="56.07054200233281" />
+      <entry key="H4" value="56.53303418794783" />
+      <entry key="D1" value="56.921859697585084" />
+      <entry key="W1" value="56.98882941629813" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="3ECsU3xj3a1bpg92RDjygO7cPM1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "upload-files",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "ml.llm.AcpAgentsConfigurable",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "C:\\Users\\david\\WebstormProjects\\roomify\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-WS-261.24374.125" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc116425-657a-43ed-bc04-23e152f506aa" name="Changes" comment="" />
+      <created>1770041053936</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1770041053936</updated>
+      <workItem from="1779693899349" duration="4544000" />
+      <workItem from="1779776213790" duration="5686000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added the `navbar` component&#10;&#10;&#10;With the `navbar`, a `button` class was also added to simplify the creation of buttons">
+      <option name="closed" value="true" />
+      <created>1779696682460</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1779696682460</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added authentication for the users&#10;&#10;&#10;Authentication is made through `Puter`">
+      <option name="closed" value="true" />
+      <created>1779698140924</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1779698140924</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Implement homepage UI">
+      <option name="closed" value="true" />
+      <created>1779777813912</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1779777813912</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added the `navbar` component&#10;&#10;&#10;With the `navbar`, a `button` class was also added to simplify the creation of buttons" />
+    <MESSAGE value="Added authentication for the users&#10;&#10;&#10;Authentication is made through `Puter`" />
+    <MESSAGE value="Implement homepage UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement homepage UI" />
+  </component>
+</project>
