@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dc116425-657a-43ed-bc04-23e152f506aa" name="Changes" comment="Implement homepage UI">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Upload.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Upload.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0000001128183342" />
+      <entry key="S60" value="1.0026773999725256" />
+      <entry key="M2" value="1.465426846947988" />
+      <entry key="M5" value="12.757102649255035" />
+      <entry key="M10" value="36.85505949081548" />
+      <entry key="M15" value="53.26758812224309" />
+      <entry key="M30" value="77.40310576664872" />
+      <entry key="H1" value="93.47176766328765" />
+      <entry key="H2" value="102.75940159849668" />
+      <entry key="H4" value="107.75457530196029" />
+      <entry key="D1" value="112.10784914392886" />
+      <entry key="W1" value="112.87210403102982" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="3.692613659070254E-151" />
+      <entry key="S5" value="6.713261256575454E-61" />
+      <entry key="S10" value="8.193466777923773E-31" />
+      <entry key="S30" value="9.477705812093009E-11" />
+      <entry key="S60" value="1.077017099890044E-5" />
+      <entry key="M2" value="0.004157486874275599" />
+      <entry key="M5" value="0.16361059009212317" />
+      <entry key="M10" value="0.5686996948924444" />
+      <entry key="M15" value="0.8636994449555166" />
+      <entry key="M30" value="1.3134419767207979" />
+      <entry key="H1" value="1.6204998870526106" />
+      <entry key="H2" value="1.800203640236055" />
+      <entry key="H4" value="1.8974544063173222" />
+      <entry key="D1" value="1.9825292377001187" />
+      <entry key="W1" value="1.9974947123926885" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.0016537994382080606" />
+      <entry key="MS500" value="0.2777771821637734" />
+      <entry key="S2" value="0.7259791399519472" />
+      <entry key="S5" value="0.8797710296307988" />
+      <entry key="S10" value="0.9379611024081963" />
+      <entry key="S30" value="0.9788774550573173" />
+      <entry key="S60" value="0.992068902661013" />
+      <entry key="M2" value="1.463962125381967" />
+      <entry key="M5" value="12.913575292586657" />
+      <entry key="M10" value="37.41379677734175" />
+      <entry key="M15" value="54.12150401770928" />
+      <entry key="M30" value="78.70924473117073" />
+      <entry key="H1" value="95.08778900554572" />
+      <entry key="H2" value="104.55712338419342" />
+      <entry key="H4" value="109.65072306419704" />
+      <entry key="D1" value="114.0901510192113" />
+      <entry key="W1" value="114.86956602202946" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="3ECsU3xj3a1bpg92RDjygO7cPM1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "upload-files",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "ml.llm.AcpAgentsConfigurable",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "C:\\Users\\david\\WebstormProjects\\roomify\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-WS-261.24374.125" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc116425-657a-43ed-bc04-23e152f506aa" name="Changes" comment="" />
+      <created>1770041053936</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1770041053936</updated>
+      <workItem from="1779693899349" duration="4544000" />
+      <workItem from="1779776213790" duration="6654000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added the `navbar` component&#10;&#10;&#10;With the `navbar`, a `button` class was also added to simplify the creation of buttons">
+      <option name="closed" value="true" />
+      <created>1779696682460</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1779696682460</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added authentication for the users&#10;&#10;&#10;Authentication is made through `Puter`">
+      <option name="closed" value="true" />
+      <created>1779698140924</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1779698140924</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Implement homepage UI">
+      <option name="closed" value="true" />
+      <created>1779777813912</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1779777813912</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added the `navbar` component&#10;&#10;&#10;With the `navbar`, a `button` class was also added to simplify the creation of buttons" />
+    <MESSAGE value="Added authentication for the users&#10;&#10;&#10;Authentication is made through `Puter`" />
+    <MESSAGE value="Implement homepage UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement homepage UI" />
+  </component>
+</project>
