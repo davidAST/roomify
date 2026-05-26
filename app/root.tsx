@@ -53,6 +53,11 @@ export function Layout({children}: { children: React.ReactNode }) {
     );
 }
 
+/**
+ * Renders the application layout and provides authentication state and actions to route children.
+ *
+ * @returns The root React element containing the main layout and an Outlet whose context includes the current authentication state and auth actions (`refreshAuth`, `signIn`, `signOut`).
+ */
 export default function App() {
     const [authState, setAuthState] = useState<AuthState>(DEFAULT_AUTH_STATE);
 
@@ -97,6 +102,15 @@ export default function App() {
 
 }
 
+/**
+ * Renders a user-facing error page for a caught route error.
+ *
+ * Shows a brief title and details describing the error. For React Router route error responses,
+ * it displays a "404" title and a not-found message when the status is 404, otherwise a generic error title and the response status text. In development, if an Error instance is available it also renders the error stack trace.
+ *
+ * @param error - The route error object passed by React Router to the boundary
+ * @returns A React element representing the error page
+ */
 export function ErrorBoundary({error}: Route.ErrorBoundaryProps) {
     let message = "Oops!";
     let details = "An unexpected error occurred.";
