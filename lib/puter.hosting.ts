@@ -21,7 +21,6 @@ export const getOrCreateHostingConfig = async (): Promise<HostingConfig | null> 
         await puter.kv.set(HOSTING_CONFIG_KEY, config);
         return config;
     } catch (e) {
-    } catch (e) {
         console.warn(`Could not find subdomain: ${e}`);
         return null;
     }
