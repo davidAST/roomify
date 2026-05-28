@@ -13,7 +13,7 @@
 
 **Roomify** is a full-stack AI-powered SaaS application that lets users upload 2D architectural floor plans and generate photorealistic 3D visualizations using state-of-the-art AI models (Gemini for now). Built with React Router v7 and TypeScript on top of [Puter.js](https://puter.com), it features persistent metadata, a global community feed, and zero infrastructure cost.
 
-🌐 **Live demo:** [roomify-woad.vercel.app](https://roomify-woad.vercel.app)
+🌐 **Live demo:** [roomify-woad.vercel.app](https://roomify-ast.vercel.app)
 
 ---
 
