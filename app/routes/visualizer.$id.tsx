@@ -4,11 +4,12 @@ import {generate3DView} from "../../lib/ai.action";
 import {Box, Download, RefreshCcw, Share2, X} from "lucide-react";
 import Button from "../../components/ui/Button";
 import {createProject, getProjectById} from "../../lib/puter.action";
+import {ReactCompareSlider, ReactCompareSliderImage} from "react-compare-slider";
 
 const VisualizerId = () => {
-    const { id } = useParams();
+    const {id} = useParams();
     const navigate = useNavigate();
-    const { userId } = useOutletContext<AuthContext>();
+    const {userId} = useOutletContext<AuthContext>();
 
     const hasInitialGenerated = useRef(false);
 
@@ -19,6 +20,17 @@ const VisualizerId = () => {
     const [isProjectLoading, setIsProjectLoading] = useState(true);
 
     const handleBack = () => navigate('/');
+
+    const handleExport = () => {
+        if (!currentImage) return;
+
+        const link = document.createElement('a');
+        link.href = currentImage;
+        link.download = `roomify-${id || 'design'}.png`;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    }
 
     const runGeneration = async (item: DesignItem) => {
         if (!id || !item.sourceImage) return;
@@ -38,7 +50,7 @@ const VisualizerId = () => {
                     isPublic: item.isPublic ?? false,
                 }
 
-                const saved = await createProject({ item: updatedItem, visibility: "private"});
+                const saved = await createProject({item: updatedItem, visibility: "private"});
 
                 if (saved) {
                     setProject(saved);
@@ -64,7 +76,7 @@ const VisualizerId = () => {
 
             setIsProjectLoading(true);
 
-            const fetchedProject = await getProjectById({ id });
+            const fetchedProject = await getProjectById({id});
 
             if (!isMounted) return;
 
@@ -125,8 +137,7 @@ const VisualizerId = () => {
                             <div className="panel-actions">
                                 <Button
                                     size="sm"
-                                    onClick={() => {
-                                    }}
+                                    onClick={() => {handleExport()}}
                                     className="export"
                                     disabled={!currentImage}>
                                     <Download className="w-4 h-4 mr-2"/> Export
@@ -159,19 +170,52 @@ const VisualizerId = () => {
                             {isProcessing && (
                                 <div className="render-overlay">
                                     <div className={"rendering-card"}>
-                                        <RefreshCcw className="spinner" />
+                                        <RefreshCcw className="spinner"/>
                                         <span className="title">Rendering...</span>
                                         <span className="subtitle">Generating your 3D visualization</span>
                                     </div>
 
                                 </div>
+                            )}
+                        </div>
+
+                    </div>
+                </div>
+
+                <div className="panel compare">
+                    <div className="panel-header">
+                        <div className="panel-meta">
+                            <p>Comparison</p>
+                            <h3>Before and After</h3>
+                        </div>
+
+                        <div className="hint">Drag to compare</div>
+
+                        <div className="compare-stage">
+                            {project?.sourceImage && currentImage ? (
+                                <ReactCompareSlider
+                                    defaultValue={50}
+                                    style={{width: '100%', height: 'auto'}}
+                                    itemOne={
+                                        <ReactCompareSliderImage src={project?.sourceImage} alt="before"
+                                                                 className="compare-img"/>
+                                    }
+                                    itemTwo={
+                                        <ReactCompareSliderImage src={currentImage || project?.renderedImage || undefined}
+                                                                 alt="after" className="compare-img"/>
+                                    }/>
+                            ) : (
+                                <div className=" compare-fallback">
+                                    {project?.sourceImage && (
+                                        <img src={project.sourceImage} alt="before" className="compare-img"/>
                                     )}
                                 </div>
-
-                                </div>
-                                </div>
-                                </section>
-                                </div>
-                                )
-                            }
-                            export default VisualizerId
+                            )}
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    )
+}
+export default VisualizerId
