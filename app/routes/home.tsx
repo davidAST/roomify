@@ -62,7 +62,7 @@ export default function Home() {
         }
 
         fetchProjects();
-    })
+    }, []);
 
     return (
         <div className="home">
