@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dc116425-657a-43ed-bc04-23e152f506aa" name="Changes" comment="Implement homepage UI">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/visualizer.$id.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/visualizer.$id.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Upload.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Upload.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000000000117741" />
+      <entry key="S10" value="1.0000034313467328" />
+      <entry key="S30" value="1.0162039134271161" />
+      <entry key="S60" value="1.2923055068198663" />
+      <entry key="M2" value="4.474311015634385" />
+      <entry key="M5" value="28.40929384508622" />
+      <entry key="M10" value="71.02446677466014" />
+      <entry key="M15" value="108.55847678968233" />
+      <entry key="M30" value="238.5893067648093" />
+      <entry key="H1" value="536.8487099728989" />
+      <entry key="H2" value="971.7328189149082" />
+      <entry key="H4" value="1391.1540912381924" />
+      <entry key="D1" value="1951.1547060837154" />
+      <entry key="W1" value="2076.1413802097863" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="3.468108417052233E-137" />
+      <entry key="MS500" value="5.105267857651925E-28" />
+      <entry key="S2" value="1.5031580024710815E-7" />
+      <entry key="S5" value="0.0018655283500519277" />
+      <entry key="S10" value="0.043191762532241426" />
+      <entry key="S30" value="0.3512583559066074" />
+      <entry key="S60" value="0.6371690361940947" />
+      <entry key="M2" value="1.3128195950956594" />
+      <entry key="M5" value="3.5467368412873035" />
+      <entry key="M10" value="5.633969808409229" />
+      <entry key="M15" value="7.17355476945673" />
+      <entry key="M30" value="13.055552112063934" />
+      <entry key="H1" value="26.401164796653983" />
+      <entry key="H2" value="44.77368546211696" />
+      <entry key="H4" value="61.516883813921595" />
+      <entry key="D1" value="82.65431344908131" />
+      <entry key="W1" value="87.20898957449604" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.0012106520507216658" />
+      <entry key="MS500" value="0.26097798185542975" />
+      <entry key="S2" value="0.714744856781419" />
+      <entry key="S5" value="0.875994227209911" />
+      <entry key="S10" value="0.9762066378064521" />
+      <entry key="S30" value="1.33966485139193" />
+      <entry key="S60" value="1.9114314384060456" />
+      <entry key="M2" value="5.7628327169191325" />
+      <entry key="M5" value="31.91326762413599" />
+      <entry key="M10" value="76.61679278170283" />
+      <entry key="M15" value="115.6935511383443" />
+      <entry key="M30" value="251.60505760410453" />
+      <entry key="H1" value="563.2050098054871" />
+      <entry key="H2" value="1016.4657119212964" />
+      <entry key="H4" value="1452.6417635832568" />
+      <entry key="D1" value="2033.8022074052647" />
+      <entry key="W1" value="2163.349335086053" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="3ECsU3xj3a1bpg92RDjygO7cPM1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "hosting-images",
+    "ignore.virus.scanning.warn.message": "true",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "C:\\Users\\david\\WebstormProjects\\roomify\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-WS-261.24374.125" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc116425-657a-43ed-bc04-23e152f506aa" name="Changes" comment="" />
+      <created>1770041053936</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1770041053936</updated>
+      <workItem from="1779693899349" duration="4544000" />
+      <workItem from="1779776213790" duration="6654000" />
+      <workItem from="1779956557069" duration="9290000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added the `navbar` component&#10;&#10;&#10;With the `navbar`, a `button` class was also added to simplify the creation of buttons">
+      <option name="closed" value="true" />
+      <created>1779696682460</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1779696682460</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added authentication for the users&#10;&#10;&#10;Authentication is made through `Puter`">
+      <option name="closed" value="true" />
+      <created>1779698140924</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1779698140924</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Implement homepage UI">
+      <option name="closed" value="true" />
+      <created>1779777813912</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1779777813912</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added the `navbar` component&#10;&#10;&#10;With the `navbar`, a `button` class was also added to simplify the creation of buttons" />
+    <MESSAGE value="Added authentication for the users&#10;&#10;&#10;Authentication is made through `Puter`" />
+    <MESSAGE value="Implement homepage UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement homepage UI" />
+  </component>
+</project>
