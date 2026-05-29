@@ -79,14 +79,30 @@ npm run start
 
 ```
 roomify/
-├── app/                  # React Router v7 app directory
-│   ├── routes/           # File-based routes
-│   └── root.tsx          # Root layout
-├── components/           # Reusable UI components (Navbar, etc.)
-├── lib/                  # Puter.js helpers and utilities
-├── public/               # Static assets
+├── app/
+│   ├── routes/
+│   │   ├── home.tsx              # Homepage with upload and projects grid
+│   │   └── visualizer.$id.tsx    # Visualizer page per project
+│   ├── app.css                   # Global styles (Tailwind)
+│   ├── root.tsx                  # App root and layout
+│   └── routes.ts                 # Route definitions
+├── components/
+│   ├── ui/
+│   │   └── Button.tsx            # Reusable button component
+│   ├── Navbar.tsx                # Navigation bar
+│   └── Upload.tsx                # File upload with drag & drop
+├── lib/
+│   ├── ai.action.ts              # AI model calls (Claude, Gemini)
+│   ├── constants.ts              # App-wide constants
+│   ├── puter.action.ts           # Puter.js KV storage helpers
+│   ├── puter.hosting.ts          # Puter.js image hosting
+│   ├── puter.worker.js           # Serverless worker logic
+│   └── utils.ts                  # Utility functions
+├── public/
+│   ├── favicon.ico
+│   └── sample-floorplan.jpg      # Sample floor plan for demo
 ├── Dockerfile
-├── react-router.config.ts
+├── type.d.ts                     # TypeScript interfaces and types
 ├── vite.config.ts
 └── README.md
 ```
