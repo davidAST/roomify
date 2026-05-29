@@ -1,6 +1,8 @@
 import {Box} from "lucide-react"
 import Button from "./ui/Button";
 import {useOutletContext} from "react-router";
+import path from "path";
+import {FaGithub} from "react-icons/fa";
 
 const Navbar = () => {
     const { isSignedIn, userName, signIn, signOut } = useOutletContext<AuthContext>()
@@ -35,10 +37,11 @@ const Navbar = () => {
                     </div>
 
                     <ul className="links">
-                        <a href="#">Product</a>
-                        <a href="#">Pricing</a>
-                        <a href="#">Community</a>
-                        <a href="#">Enterprise</a>
+                        <a href="#upload">Product</a>
+                        <a href="#projects">Projects</a>
+                        <a href="https://github.com/davidAST/roomify" target="_blank" rel="noreferrer" className="flex items-center gap-1">
+                            <FaGithub size={14} /> GitHub
+                        </a>
                     </ul>
                 </div>
 

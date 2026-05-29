@@ -9,8 +9,8 @@ import {createProject, getProjects} from "../../lib/puter.action";
 
 export function meta({}: Route.MetaArgs) {
     return [
-        {title: "New React Router App"},
-        {name: "description", content: "Welcome to React Router!"},
+        {title: "Roomify"},
+        {name: "description", content: "Welcome to Roomify!"},
     ];
 }
 
@@ -55,6 +55,20 @@ export default function Home() {
         }
     }
 
+    const handleDemo = async () => {
+        const response = await fetch('/sample-floorplan.jpg');
+
+        const blob = await response.blob();
+
+        const base64 = await new Promise<string>((res) => {
+            const reader = new FileReader();
+            reader.onload = () => res(reader.result as string);
+            reader.readAsDataURL(blob);
+        });
+
+        await handleUploadComplete(base64);
+    }
+
     useEffect(() => {
         const fetchProjects = async () => {
             const items = await getProjects();
@@ -72,7 +86,7 @@ export default function Home() {
                     <div className="dot">
                         <div className="pulse"/>
                     </div>
-                    <p>Introducing Roomify 2.0</p>
+                    <p>Introducing Roomify</p>
                 </div>
 
                 <h1>Build beautiful spaces at the speed of thought with roomify</h1>
@@ -86,8 +100,8 @@ export default function Home() {
                     <a href="#upload" className="cta">
                         Start Building <ArrowRight className="icon"/>
                     </a>
-                    <Button variant="outline" size="lg" className="demo">
-                        Watch Demo
+                    <Button variant="outline" size="lg" className="demo" onClick={handleDemo}>
+                        Try with a sample
                     </Button>
                 </div>
 
@@ -106,7 +120,7 @@ export default function Home() {
                 </div>
             </section>
 
-            <section className="projects">
+            <section id="projects" className="projects">
                 <div className="section-inner">
                     <div className="section-head">
                         <div className="copy">

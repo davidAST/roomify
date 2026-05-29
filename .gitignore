@@ -6,6 +6,6 @@
 /.react-router/
 /build/
 
-.idea/.
+.idea/
 
 .env.local
