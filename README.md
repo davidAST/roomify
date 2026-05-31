@@ -138,3 +138,13 @@ https://github.com/user-attachments/assets/5931c2d6-6123-4427-8519-3dbe48d71c40
 https://github.com/user-attachments/assets/5f1d19ba-d15b-47ea-8619-a27c4b08b444
 
 ---
+
+## Tutorial
+
+This project was built by following the tutorial by **JavaScript Mastery** on YouTube:
+
+[![Build and Deploy a Full-Stack AI App (Completely Free)](https://img.youtube.com/vi/JiwTGGGIhDs/maxresdefault.jpg)](https://www.youtube.com/watch?v=JiwTGGGIhDs)
+
+> All credit for the course structure and guidance goes to the original creator.
+
+---
